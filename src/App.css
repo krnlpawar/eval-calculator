@@ -1,0 +1,40 @@
+.calculator-container {
+  width: 250px;
+  margin: 50px auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-display {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.equals {
+  grid-column: 3 / 5;
+}
+
+.zero {
+  grid-column: 1 / 2;
+}
